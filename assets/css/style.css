@@ -56,6 +56,12 @@ header {
     margin: 100px;
 }
 
+#about .info {
+    display: flex;
+    justify-content: center;
+
+}
+
 #skills {
     display: flex;
     align-items: center;
@@ -132,4 +138,9 @@ header {
     margin: 40px;
     display: flex;
 
+}
+
+.card1:hover {
+    transform: scale(1.05); /* Ajusta el factor de escala según tu preferencia */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
